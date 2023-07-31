@@ -1,22 +1,178 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Daily Diary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        p {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+            gap: 20px; /* Gap between grid items */
+            justify-content: center;
+        }
+        li {
+            margin: 10px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            color: #007BFF;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .day-box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .day-box img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* Styles for the second row of the gallery */
+        @media (min-width: 600px) {
+            ul {
+                grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+            }
+        }
+
+        /* Styles for the third row of the gallery */
+        @media (min-width: 900px) {
+            ul {
+                grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+            }
+        }
+
+        /* Styles for the fourth row of the gallery */
+        @media (min-width: 1200px) {
+            ul {
+                grid-template-columns: repeat(3, 1fr); /* 3columns in the grid */
+            }
+        }
+        @media (min-width: 1500px) {
+            ul {
+                grid-template-columns: repeat(3, 1fr); /* 3columns in the grid */
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to My Daily Diary</h1>
     <p>Click on the links below to view each day's entry:</p>
     <ul>
-        <li><a href="./daily_entries/day1.html">Day 1</a></li>
-        <li><a href="./daily_entries/day2.html">Day 2</a></li>
-        <li><a href="./daily_entries/day3.html">Day 3</a></li>
-        <li><a href="./daily_entries/day4.html">Day 4</a></li>
-        <li><a href="./daily_entries/day5.html">Day 5</a></li>
-        <li><a href="./daily_entries/day6.html">Day 6</a></li>
-        <li><a href="./daily_entries/day7.html">Day 7</a></li>
-    </ul>
-</body>
-</html>
+        
+        <li>
+            <div class="day-box day1">
+                <img src="./pics/day1.jpg" alt="Day 1">
+                <a href="./daily_entries/day1.html">Day 1</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day2">
+                <img src="./pics/day2.webp" alt="Day 2">
+                <a href="./daily_entries/day2.html">Day 2</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day3">
+                <img src="./pics/day3.png" alt="Day 3">
+                <a href="./daily_entries/day3.html">Day 3</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day4">
+                <img src="./pics/day4.png" alt="Day 4">
+                <a href="./daily_entries/day4.html">Day 4</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day5">
+                <img src="./pics/day5.jpg" alt="Day 5">
+                <a href="./daily_entries/day5.html">Day 5</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day6">
+                <img src="./pics/day6.png" alt="Day 6">
+                <a href="./daily_entries/day6.html">Day 6</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day7">
+                <img src="./pics/day7.png" alt="Day 7">
+                <a href="./daily_entries/day7.html">Day 7</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day8">
+                <img src="./pics/day8.jpg" alt="Day 8">
+                <a href="./daily_entries/day8.html">Day 8</a>
+            </div>
+        </li>
 
 
+        <li>
+            <div class="day-box day9">
+                <img src="./pics/day9.jpg" alt="Day 9">
+                <a href="./daily_entries/day9.html">Day 9</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day10">
+                <img src="./pics/day10.jpg" alt="Day 10">
+                <a href="./daily_entries/day10.html">Day 10</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day11">
+                <img src="./pics/day11.jpg" alt="Day 11">
+                <a href="./daily_entries/day11.html">Day 11</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day12">
+                <img src="./pics/day12.png" alt="Day 12">
+                <a href="./daily_entries/day12.html">Day 12</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="day-box day13">
+                <img src="./pics/day13.jpg" alt="Day 13">
+                <a href="./daily_entries/day13.html">Day 13</a>
+            </div>
+        </li>
+        <li>
+            <div class="day-box day14">
+                <img src="./pics/day14.jpg" alt="Day 14">
+                <a href="./daily_entries/day14.html">Day 14</a>
+            </li>
+        </ul>
+    </body>
+    </html>
